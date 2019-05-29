@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import img from 'images/water.gif';
 import './Home.sass';
 
 export default class Home extends Component {
@@ -10,9 +9,10 @@ export default class Home extends Component {
     render() {
         return (
           <div className='Home'>
-            <div className='body'>
+            <div className='row body'>
+              <div className='test' />
             </div>
-            <div className='footer'>
+            <div className='row footer'>
               <span className='title'>new port nowhere</span>
               <span className='subtitle'>a blog about nothing</span>
             </div>

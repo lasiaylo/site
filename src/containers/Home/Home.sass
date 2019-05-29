@@ -1,19 +1,18 @@
 .Home
-  position: relative
-  height: 100vh
+  display: flex
+  flex-flow: column
+  height: 100%
   background: url("../../images/static.gif")
-
+  .row
+    border: 1px dotted red
   .body
-
-
+    flex: 1 1 auto
   .footer
-    position: absolute
-    bottom: 0
-    padding-left: 12px
-    padding-bottom: 20px
-    opacity: .7
+    flex: 0 1 45px
     color: #FFF9FF
+    opacity: .7
     .title
+      margin-left: 12px
       font-family: "Adobe Garamond Pro"
       font-size: 80px
       line-height: 0
@@ -21,5 +20,6 @@
     .subtitle
       font-family: Inconsolata, monospace
       font-size: 24px
-      margin-bottom: 10px
+
+
 
